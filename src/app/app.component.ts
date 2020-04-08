@@ -18,6 +18,15 @@ export class AppComponent implements OnInit {
 
   async ngOnInit() {
     this.userRequired = true;
+    this.repType = 1;
 
   }
+  onRepTypeChange($event) {
+    if ($event.value == 1) {
+      this.userRequired = true;
+    } else {
+      this.userRequired = false;
+    }
+  }
+
 }
