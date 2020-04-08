@@ -1,0 +1,24 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<div class='input-group'>
+    <ejs-dropdownlist 
+        [dataSource]='userLookupData' [value]='user' [fields]='userFields' floatLabelType='Auto'
+        validationRules placeholder='User:' class="qc-text-input" showClearButton=true
+        [required]="userRequired">
+    </ejs-dropdownlist>
+    <div *ngIf="user.invalid && (user.dirty || user.touched)" class="alert alert-danger">
+        <div *ngIf="user.errors.required" class="form-error">User is required.</div>
+    </div>
+    <br>
+</div>
+<div class='input-group'>
+    <label for="reportType" class="float-left">Report Type:</label>
+    <div class="float-left" style="text-align: left;">
+        <ejs-radiobutton  [value]=1 cssClass="e-small" label="Detailed"
+            name="repType" (change)='onRepTypeChange($event);'></ejs-radiobutton><br />
+        <ejs-radiobutton  [value]=2 cssClass="e-small" label="Rolled-up"
+            name="repType" (change)='onRepTypeChange($event);'></ejs-radiobutton>
+    </div>
+</div>
