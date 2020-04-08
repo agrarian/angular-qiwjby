@@ -22,7 +22,7 @@ p {
   content:"  ALL";
 } 
 /* Customizing MultiSelect labels */
-.e-float-input:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text:not(.e-label-top), .e-float-input.e-control-wrapper:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text:not(.e-label-top), .e-float-input.e-bigger:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text:not(.e-label-top) {
+/* .e-float-input:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text:not(.e-label-top), .e-float-input.e-control-wrapper:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text:not(.e-label-top), .e-float-input.e-bigger:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text:not(.e-label-top) {
     color: black;
     font-size:14px;
   }
@@ -31,7 +31,7 @@ p {
    }
    .e-float-input:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text.e-label-bottom::after, .e-float-input.e-control-wrapper:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text.e-label-bottom::after, .e-float-input.e-bigger:not(.e-error):not(.e-input-focus) input:not(:focus):valid ~ label.e-float-text.e-label-bottom::after {
     content:"  ALL";
-   }
+   } */
  
 /* Adding required red dot to Required fields */
 /* First line catches the DatePickers, and the second the DropDownLists */

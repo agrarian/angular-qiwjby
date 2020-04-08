@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserLookup } from './models/user-lookup';
 import { UserLookupData } from './data/user-lookup-data';
-import { DropDownListModule, MultiSelectModule } from '@syncfusion/ej2-angular-dropdowns';
-
 
 @Component({
   selector: 'my-app',
